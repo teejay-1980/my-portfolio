@@ -1,0 +1,322 @@
+body {
+  margin: 0;
+}
+
+/* Header Start */
+
+.my_image {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+}
+
+#header {
+  text-align: center;
+  background-color: lavender;
+  height: 300px;
+}
+
+.header-wrapper {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.header-wrapper h1 {
+  font-family: 'Fjalla One', sans-serif;
+  color: #4169e1;
+}
+
+/* Header End */
+
+/* About Me Start */
+
+#aboutMe h2 {
+  text-align: center;
+  color: #708090;
+  font-family: 'Indie Flower', cursive;
+}
+
+#aboutMe span {
+  border: 3px dashed #708090;
+  padding: 20px 15px;
+}
+
+#aboutMe {
+  margin-top: 70px;
+}
+
+.aboutMeDescription {
+  width: 80%;
+  margin: 100px auto;
+}
+
+.aboutMeDescription p {
+  font-family: 'Crimson Text', serif;
+  font-size: 25px;
+  text-align: justify;
+}
+
+/* About Me End */
+
+
+/* Coding Schedule Start */
+
+#codingSchedule h2 {
+  text-align: center;
+  color: #708090;
+  font-family: 'Indie Flower', cursive;
+}
+
+#codingSchedule span {
+  border: 3px dashed;
+  padding: 20px 15px;
+}
+
+#codingSchedule table, th, td {
+  border: 2px solid #cecece;
+  border-collapse: collapse;
+  padding: 20px 0;
+  table-layout: fixed;
+  text-align: center;
+}
+
+#codingSchedule table {
+  width: 80%;
+  margin: auto;
+  margin-top: 80px;
+}
+
+#codingSchedule th {
+  font-family: 'Merriweather Sans', sans-serif;
+  font-size: 20px;
+}
+
+#codingSchedule td {
+  font-family: 'Merriweather Sans', sans-serif;
+  font-weight: 300;
+}
+
+.tableSelected {
+  background-color: #ff6347;
+  color: white;
+}
+
+#codingSchedule {
+  background-color: lavender;
+  padding-top: 50px;
+  padding-bottom: 100px;
+  margin-bottom: 100px;
+}
+
+
+/* Coding Schedule End */
+
+/* My Skills Start */
+
+#mySkills h2 {
+  text-align: center;
+  color: #708090;
+  font-family: 'Indie Flower', cursive;
+  margin-bottom: 80px;
+}
+
+#mySkills span {
+  border: 3px dashed;
+  padding: 20px 15px;
+}
+
+.skillsWrapper {
+  width: 80%;
+  margin: auto;
+}
+
+progress {
+  width: 70%;
+  height: 35px;
+}
+
+.skillsWrapper li {
+  font-family: 'Merriweather Sans', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+#mySkills {
+  margin-bottom: 100px;
+}
+
+/* My Skills End */
+
+/* Quotes Start */
+
+#quotes h2 {
+  text-align: center;
+  color: #708090;
+  font-family: 'Indie Flower', cursive;
+  margin-bottom: 80px;
+}
+
+.faveQuotes {
+  border: 3px dashed;
+  padding: 20px 15px;
+}
+
+.quotesMJ {
+  height: 250px;
+  width: 50%;
+  border: 0.5px solid;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.quotesMJ img {
+  height: 150px;
+  width: 150px;
+  border-radius: 100%;
+  float: right;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.quotesMJ p {
+  font-family: 'Crimson Text', serif;
+  font-style: italic;
+  font-size: 25px;
+  margin-left: 20px;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+.quotesMJ span {
+  color: red;
+}
+
+.quotesTR {
+  height: 200px;
+  width: 50%;
+  border: 0.5px solid;
+  margin: auto;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+
+.quotesTR img {
+  height: 150px;
+  width: 150px;
+  border-radius: 100%;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left: 20px;
+  margin-right: 20px;
+  float: left;
+}
+
+.quotesTR p {
+  font-family: 'Crimson Text', serif;
+  font-style: italic;
+  font-size: 25px;
+  line-height: 2.5;
+}
+
+.quotesTR span {
+  color: red;
+}
+
+#quotes {
+  background-color: lavender;
+  padding: 50px 0;
+}
+
+/* Quotes End */
+
+
+/* Contact Me Start */
+
+#contactMe h2 {
+  text-align: center;
+  color: #708090;
+  font-family: 'Indie Flower', cursive;
+  margin-bottom: 80px;
+}
+
+#contactMe span {
+  border: 3px dashed;
+  padding: 20px 15px;
+}
+
+input, textarea {
+  width: 70%;
+  margin: 5px 0;
+  height: 40px;
+  border: 1px solid #cecece;
+  border-radius: 5px;
+  font-size: 15px;
+  padding-left: 10px;
+  font-family: 'Merriweather Sans', sans-serif;
+  font-weight: 300;
+  background-color: #f5f5f5;
+  outline: none;
+}
+
+textarea {
+  height: 100px;
+  padding-top: 10px;
+  font-family: 'Merriweather Sans', sans-serif;
+  font-weight: 300;
+}
+
+.contactForm {
+  text-align: center;
+}
+
+.submit {
+  width: 71%;
+  height: 60px;
+  font-size: 18px;
+  font-family: 'Merriweather Sans', sans-serif;
+  font-weight: bold;
+  background-color: #778899;
+  color: white;
+}
+
+#contactMe {
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.submit:hover {
+  opacity: 0.8;
+}
+
+input:focus {
+  border-color: red;
+}
+
+textarea:focus {
+  border-color: red;
+}
+
+/* Contact Me End */
+
+
+/* Footer Start */
+
+footer {
+  text-align: center;
+  padding: 60px 0;
+  background-color: lavender;
+}
+
+footer p {
+  font-family: 'Merriweather Sans', sans-serif;
+  font-weight: 300;
+}
+
+
+/* Footer End */
